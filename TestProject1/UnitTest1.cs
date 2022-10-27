@@ -17,7 +17,8 @@ namespace TestProject1
         [TestCase(5)] 
         [TestCase(7)] 
         [TestCase(69)] 
-        public async Task Test1Async(int number)
+        [TestCase(99)] 
+        public async Task ResponseTest(int number)
         {
             var response = await client.GetStringAsync($"http://numbersapi.com/{number}");
             var jsonstring = File.ReadAllText($"D:\\repos\\NumbersApiTesting\\NumbersApiTests\\TestProject1\\Messages\\number_{number}.json");

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1.csproj", "{7C1B116E-0B43-4D53-AB3B-7B22A1384D80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersApiTesting", "NumbersApiTesting.csproj", "{7C1B116E-0B43-4D53-AB3B-7B22A1384D80}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersApiGenerator", "..\NumbersApiGenerator\NumbersApiGenerator.csproj", "{4E23BBA8-73C6-491E-BF04-182010075029}"
 EndProject
